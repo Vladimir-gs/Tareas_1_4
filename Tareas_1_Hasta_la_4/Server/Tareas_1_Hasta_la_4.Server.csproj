@@ -8,11 +8,22 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="7.0.13" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlite" Version="7.0.13" />
+    <PackageReference Include="microsoft.entityframeworkcore.tools" Version="7.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Client\Tareas_1_Hasta_la_4.Client.csproj" />
     <ProjectReference Include="..\Shared\Tareas_1_Hasta_la_4.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Data\" />
   </ItemGroup>
 
 
