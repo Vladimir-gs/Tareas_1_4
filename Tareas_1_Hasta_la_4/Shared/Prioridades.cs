@@ -2,7 +2,7 @@
 
 namespace Tareas_1_Hasta_la_4.Shared
 {
-    internal class Prioridades
+    public class Prioridades
     {
         [Key]
         public int PrioridadesId { get; set; }
