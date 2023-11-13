@@ -9,10 +9,16 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.13" PrivateAssets="all" />
+    <PackageReference Include="Radzen.Blazor" Version="4.20.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Shared\Tareas_1_Hasta_la_4.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Consultas\" />
+    <Folder Include="Pages\Registros\" />
   </ItemGroup>
 
 </Project>
